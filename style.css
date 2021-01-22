@@ -1,0 +1,98 @@
+html body {
+    background-color: rgba(0,0,0,1.00);
+}
+body {
+  background-color: black;
+  font-size: 100%
+}
+div {
+  background-color: #1B1B1B;
+}
+p {
+  font-family: Avenir;
+  color: #FAFAFA;
+  font-size: 95%;
+}
+h1 {
+  font-family: Avenir;
+  color: indianred;
+  text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000; 
+
+}
+h2 {
+  font-family: Avenir;
+  color: #FAFAFA;
+  text-shadow:
+    -0.7px -0.7px 0 #000,
+    0.7px -0.7px 0 #000,
+    -0.7px 0.7px 0 #000,
+    0.7px 0.7px 0 #000; 
+}
+h3 {
+  font-family: Avenir;
+  color: #FAFAFA;
+}
+h4 {
+  font-family: Avenir; 
+  color: #FAFAFA;
+}
+h5 {
+  font-family: Avenir;
+  color: #FAFAFA;
+}
+li {
+	font-family: Avenir;
+  color: #D4D4D4;
+}
+img {
+  opacity: 0.7;
+}
+img:hover {
+  opacity: 1.0;
+}
+.list li {
+	font-family: Avenir;
+	font-style: oblique;
+  color: #BEBEBE;
+}
+.bold {
+	font-weight: bold;
+}
+.rightside{
+	position: absolute;
+  right: 20px;
+  font-size:1.3vw;
+}
+.ontop{
+  position: relative;
+  text-align: center;
+}
+.textontop{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:5vw;
+}
+.responsive{
+  font-size: 1.3vw;
+}
+.info{
+  color:grey;
+}
+#brand{
+  color:indianred;
+  font-style: oblique;
+  font-family: Georgia;
+  font-size:30px;
+}
+#black{
+  background-color: #1B1B1B;
+}
+#white{
+  background-color: #E5E5E5;
+}
